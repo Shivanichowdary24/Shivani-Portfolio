@@ -2,7 +2,6 @@
   "short_name": "Shivani Portfolio",
   "name": "Shivani Atukuri - Software Developement Engineer",
   "icons": [{
-    "src": "shivani-logo.png",
     "sizes": "512x512",
     "type": "image/png",
     "purpose": "any maskable"
