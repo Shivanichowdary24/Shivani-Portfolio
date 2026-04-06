@@ -1,0 +1,132 @@
+/* Skills.css */
+.skills {
+  padding: var(--section-padding);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: var(--bg-section-alt);
+}
+
+.skills .section-title {
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  color: var(--text-color);
+  margin-bottom: 0.75rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.skills blockquote {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-bottom: 3rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.75rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.skills-category {
+  background: var(--bg-card);
+  padding: 1.75rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(8px);
+}
+
+.skills-category:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 212, 170, 0.08);
+}
+
+.skills-category h3 {
+  font-size: 1rem;
+  color: var(--primary-color);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border-color);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background: rgba(0, 212, 170, 0.05);
+  color: var(--text-light);
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background: rgba(0, 212, 170, 0.12);
+  color: var(--primary-color);
+  border-color: rgba(0, 212, 170, 0.3);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .skills {
+    padding: 5rem 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .skills {
+    padding: var(--section-padding-mobile);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .skills-category {
+    padding: 1.5rem;
+  }
+
+  .skills blockquote {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .skills {
+    padding: 3rem 1rem;
+  }
+
+  .skills-category {
+    padding: 1.25rem;
+  }
+
+  .skill-tag {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.78rem;
+  }
+}
