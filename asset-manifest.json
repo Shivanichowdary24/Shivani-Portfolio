@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Shivani-Portfolio/static/css/main.4fbb658f.css",
+    "main.js": "/Shivani-Portfolio/static/js/main.5784e40e.js",
+    "static/media/pic.jpg": "/Shivani-Portfolio/static/media/pic.49b63e1ace7a416e68d1.jpg",
+    "static/media/c1.jpg": "/Shivani-Portfolio/static/media/c1.f6a5f037f16d17b1bb5c.jpg",
+    "static/media/c4.jpg": "/Shivani-Portfolio/static/media/c4.98c7ae2cc685f19476ae.jpg",
+    "static/media/c3.jpg": "/Shivani-Portfolio/static/media/c3.eb6283029fb72f87803e.jpg",
+    "static/media/c5.jpg": "/Shivani-Portfolio/static/media/c5.400d6109d29aab34393d.jpg",
+    "static/media/c2.jpg": "/Shivani-Portfolio/static/media/c2.f635dc49beab777fd502.jpg",
+    "static/media/intro-LLM.jpg": "/Shivani-Portfolio/static/media/intro-LLM.3f49081929482a6f9d4e.jpg",
+    "static/media/intro-genAI.jpg": "/Shivani-Portfolio/static/media/intro-genAI.ea1dd88c41105a1ea298.jpg",
+    "static/media/intro-AI.jpg": "/Shivani-Portfolio/static/media/intro-AI.97c185caa9a0b33ea9f0.jpg",
+    "index.html": "/Shivani-Portfolio/index.html",
+    "main.4fbb658f.css.map": "/Shivani-Portfolio/static/css/main.4fbb658f.css.map",
+    "main.5784e40e.js.map": "/Shivani-Portfolio/static/js/main.5784e40e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fbb658f.css",
+    "static/js/main.5784e40e.js"
+  ]
+}
