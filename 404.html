@@ -2,8 +2,11 @@
 <html>
   <head>
     <script>
-      sessionStorage.redirect = location.pathname;
-      window.location.href = "/";
+      var path = window.location.pathname;
+      var repo = "/Shivani-Portfolio";
+
+      sessionStorage.redirect = path;
+      window.location.href = repo + "/";
     </script>
   </head>
 </html>
